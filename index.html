@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <title>Lemna Minor</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A Glia Kutatás - Fejlesztési Innovációs Korlátolt Felelősségű Társaság hivatalos honlapja.">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="images/icons/favicon.png" type="image/gif">
+        <script src="scripts/sideNav.js" defer></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="scripts/particles.js"></script>
+    </head>
+    <body>
+        <header>
+            <a href="#section_hero"><img class="logo_header" src="images/icons/lemnaMinorLogo.png" alt=""></a>
+            
+            <span class="slideButton" onclick="openNav()">Menu</span>
+            <nav class="desktop_nav">
+                <ul>
+                    <li><a href="#about">About us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <nav id="openCloseNav" class="mobileNav">
+				<ul>
+					<li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a></li>
+                    <li><a href="#about">About us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+        </header>
+        <main>
+            <section id="section_hero">
+                <div id="particle-div">
+                    <img src="images/lemnaMinorLogoWhite.png" alt="">
+                </div>
+                
+            </section>
+            <section id="section_about-us">
+                <section id="about" class="goto"></section>
+                <h1>About us</h1>
+                <p>
+                    LemnaMinor assists its partners in the procurement of laboratory consumables and reagents, as well as in the use of related services, primarily in the fields of life sciences and molecular research, biotechnology, the pharmaceutical industry, and clinical and veterinary laboratory diagnostics. We aim to serve the work of our clients to the best of our ability and make it more efficient and economical by providing the necessary materials and tools in a well-organized manner.  
+                </p>
+                <div class="n_image n_image_about"></div>
+                
+            </section>
+            <section id="section_services">
+                <section id="services" class="goto"></section>
+                <h1>Services</h1>
+                <p>
+                    Feel free to contact us with individual needs and requests, as we experience it as an exciting and useful task to find a solution in consultation with our partners, adapted to the given possibilities and ideas. 
+                </p>
+                <div class="flex_services">
+                    <div class="item1">
+                        <h2>Procurement - distribution</h2>
+                        <p>
+                            Our product range includes laboratory plastic and glassware consumables, general and molecular biological reagents, antibodies, ELISA kits, cell and tissue culture-related materials, as well as small laboratory instruments.                       
+                        </p>
+                    </div>
+                    <div class="item2">
+                        <h2>Consultancy</h2>
+                        <p>
+                            This includes the assessment of individual laboratory needs, as well as the preparation of procurement needs for public procurement.
+                        </p>
+                    </div>
+                    <div class="item3">
+                        <h2>Protein synthesis</h2>
+                        <p>
+                            Through our partners, we can also help our customers with the on-demand protein synthesis service. In this regard, we welcome your inquiry at one of the contact details provided on the website.
+                        </p>
+                    </div>  
+                    <div class="item4">
+                        <h2>Antibody manufacuring</h2>
+                        <p>
+                            The services provided by our company include the production of antibodies to meet individual needs. In this regard, we welcome your inquiry at one of the contact details provided on the website.
+                        </p>
+                    </div>
+                </div>
+                
+            </section>
+            <section id="section_products">
+                <section id="products" class="goto"></section>
+                <h1>Products</h1>
+                <p>
+                    The focus of our activity is to supply the operation of laboratories with high-quality, reliable, but at the same time value-for-money products. Our product range includes laboratory plastic and glassware consumables, general and molecular biological reagents, antibodies, ELISA kits, cell and tissue culture-related materials, as well as small laboratory instruments. 
+                </p>
+                <div class="n_image n_image_products"></div>
+                <h2>Main product categories</h2>
+                
+                <ul>
+                    <li>Laboratory plastic products</li>
+                    <li>Laboratory glassware</li>
+                    <li>Reagents</li>
+                    <li>Small laboratory instruments</li>
+                </ul>
+            </section>
+            <section id="section_contact">
+                <section id="contact" class="goto"></section>
+                <h1>Contact</h1>
+                <h2>Email:</h2>
+                <p><a href="info@lemnaminor.hu">info@lemnaminor.hu</a>  </p>
+                <h2>Address:</h2>
+                <p>Hlavná 22 943 01 Štúrovo, Slovakia </p>
+                <iframe class="map" title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2680.089586187182!2d18.72101036691607!3d47.79909911914957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476a61bfec466a6f%3A0x3a8e2c27b5498916!2zSGxhdm7DoSAxMzgvMjIsIDk0MyAwMSDFoHTDunJvdm8sIFNsb3Zha2lh!5e0!3m2!1sen!2suk!4v1645883916522!5m2!1sen!2suk" allowfullscreen="" loading="lazy"></iframe>
+                
+            </section>
+        </main>
+        <footer>
+            <img src="images/icons/lemnaMinorLogoWhite.png" alt="">
+            <p>
+                Lemna minor s.r.o. <br>
+                Hlavná 22 943 01 <br>
+                Štúrovo, Slovakia
+            </p>
+            
+            
+        </footer>
+        <script>
+            $( document ).ready(function() {
+                /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+                particlesJS.load('particle-div', 'scripts/particle-cfg.json', function() {
+                    console.log('callback - particles.js config loaded');
+                });
+            });
+        </script>
+    </body>
+</html> 
